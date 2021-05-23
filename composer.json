@@ -25,5 +25,6 @@
     },
     "scripts":{
         "cs" : "phpcs --standard=PSR12 src/"
-    }
+    },
+    "license": "GPL-3.0"
 }
