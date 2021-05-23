@@ -1,0 +1,29 @@
+{
+    "name": "diaslasd/busca_cursos",
+    "description": "Busca cursos da Alura",
+    "type": "library",
+    "authors": [
+        {
+            "name": "ATCO Dias",
+            "email": "diaslasd@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.3",
+        "symfony/dom-crawler": "^5.2.9",
+        "symfony/css-selector": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alura\\BuscadorDeCursos\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9",
+        "squizlabs/php_codesniffer": "^3.6",
+        "phan/phan": "^4.0"
+    },
+    "scripts":{
+        "cs" : "phpcs --standard=PSR12 src/"
+    }
+}
